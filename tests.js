@@ -98,6 +98,7 @@ describe('selectionSort', function () {
     assert.deepEqual([2], selectionSort([2]))
   })
 
+
   it('returns the same array for a sorted array', function () {
     assert.deepEqual([2, 4, 10, 12], selectionSort([2, 4, 10, 12]))
   })
